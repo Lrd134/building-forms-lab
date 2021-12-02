@@ -2,11 +2,15 @@
 import React, { Component } from 'react'
 
 class BandInput extends Component {
+
+  handleInput = event => {
+    
+  }
   render() {
     return(
-      <div>
-        Band Input
-      </div>
+      <form onSubmit={this.handleInput}>
+        <input> </input>
+      </form>
     )
   }
 }
